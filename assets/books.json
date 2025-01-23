@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Rich Dad, Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "price": 1250,
+      "imageUrl": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UF1000,1000_QL80_.jpg",
+      "description": "This book focuses on the mindset and financial habits needed to achieve wealth."
+    },
+    {
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 1100,
+      "imageUrl": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UF1000,1000_QL80_.jpg",
+      "description": "A timeless personal development book that teaches success principles."
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "price": 1350,
+      "imageUrl": "https://m.media-amazon.com/images/I/61elAgfB62L._AC_UF1000,1000_QL80_.jpg",
+      "description": "A self-help book that outlines habits for personal and professional success."
+    }
+  ]
+  
