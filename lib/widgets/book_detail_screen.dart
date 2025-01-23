@@ -18,6 +18,14 @@ class BookDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: Image.network(
+                book.imageUrl,
+                height: 200,
+                fit: BoxFit.cover,
+              ),
+            ),
+            const SizedBox(height: 16),
             Text(
               book.title,
               style: const TextStyle(
@@ -33,12 +41,6 @@ class BookDetailScreen extends StatelessWidget {
                 fontStyle: FontStyle.italic,
                 color: Colors.grey,
               ),
-            ),
-            const SizedBox(height: 16),
-            Image.network(
-              book.imageUrl,
-              height: 200,
-              fit: BoxFit.cover,
             ),
             const SizedBox(height: 16),
             Text(

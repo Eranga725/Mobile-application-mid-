@@ -23,7 +23,7 @@ class BookWidget extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 book.title,
@@ -42,10 +42,12 @@ class BookWidget extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 16),
-              Image.network(
-                book.imageUrl,
-                height: 150,
-                fit: BoxFit.cover,
+              Center(
+                child: Image.network(
+                  book.imageUrl,
+                  height: 150,
+                  fit: BoxFit.cover,
+                ),
               ),
               const SizedBox(height: 16),
               Row(
@@ -60,9 +62,7 @@ class BookWidget extends StatelessWidget {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: () {
-                      // Add to cart functionality
-                    },
+                    onPressed: () {},
                     child: const Text('Add to cart'),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.teal,

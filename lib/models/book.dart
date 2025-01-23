@@ -13,7 +13,6 @@ class Book {
     required this.description,
   });
 
-  // Factory method to create a Book from JSON
   factory Book.fromJson(Map<String, dynamic> json) {
     return Book(
       title: json['title'],
